@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(46, 45, 45);
+}
+
+.main {
+  text-align: center;
+  margin-top: 150px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+#input {
+  border-radius: 12px;
+  padding: 8px;
+}
+
+#btn {
+  border-radius: 16px;
+  padding: 8px;
+  background-color: yellow;
+}
+
+#btn:hover {
+  background-color: black;
+  color: yellow;
+  border: 2px solid yellow;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 50px;
+}
+
+li {
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.delete {
+  border-radius: 16px;
+  padding: 8px;
+  background-color: yellow;
+}
+
+.delete:hover {
+  background-color: black;
+  color: yellow;
+  border: 2px solid yellow;
+}
